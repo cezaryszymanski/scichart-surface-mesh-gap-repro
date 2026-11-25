@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SciChart Surface Mesh Gap Repro</title>
+        <script type="module" src="/index.ts"></script>
+    </head>
+    <body>
+        <div style="font-family: monospace; padding: 4px">
+            <a href="?xMin=0">visibleRange.min = 0 (correct)</a> |
+            <a href="?xMin=500">visibleRange.min = 500 (gaps)</a>
+            <div id="status"></div>
+        </div>
+        <div id="chart" style="height: 85vh"></div>
+    </body>
+</html>
